@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    color:#f4f3f4;
+    font-family: "raleway"; sans serif;
+}
+
+ul{
+    color:#f4f3f4;
+    font-size: 13px;
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 10px;
+}
+
+a{
+    color:#f4f3f4;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 100px;
+    text-align: right;
+}
+
+.logo{
+    color:#f4f3f4;
+    display: flex;
+    align-items:center;
+    padding: 10px;
+}
+
+img{
+    width:150px;
+    height:200px;
+    border: 5px solid #f35009;
+    margin-top: 10px;
+    }
+.logo img {
+    width: 55px;
+    height: 55px;
+    padding: 5px;
+    border: 2px solid #f35009;
+}
+.titulo1{
+    text-align: center;
+    color: #f4f3f4;
+
+}
+.sec01{
+    background-color:#e42A03;
+}
+.sec02 {
+    height: 350px;
+    background-image: url(../img/plano_fundo.jpg);
+    padding: 0%;
+}
+.sec03 {
+    height: 250px;
+    background-color: #f35009;
+    padding: 50px;
+    padding-top: 50px;
+}
+.titulo2 {
+    width: 45%;
+    height: 45%;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    text-justify: auto;
+    color: #f4f3f4;
+}
+
+.titulo3 {
+    width: 45%;
+    height: 45%;
+    float: right;
+    margin: 10px;
+    text-align: center;
+    color: #f4f3f4;
+}
+.titulo2 p{
+    height: 50%;
+}
+.sec05 {
+    height:350px;
+    color:#f4f3f4;
+    background-image: url(../img/plano_fundo.jpg);
+    padding: 20px;
+}
+.contato1 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    line-height: 80px;
+}
+.contato1 label {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+.contato1 form input[type=text], textarea {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 60%;
+    padding: 10px;
+
+}
+.contato1 textarea {
+    min-height: 100px;
+}
+.contato1 button {
+    float: right;
+    background-color: #f35009;
+    color: #f4f3f4;
+    padding-top: 0%;
+    padding-left: 5px;
+
+}
+.localização {
+    width: 50%;
+    height:50%;
+    float: right;
+    line-height: 160%;
+    text-align: center;
+}
+
+.sec06 {
+    background-image: url(../img/plano_fundo.jpg);
+    padding: 20px;
+    height: 550px;
+}
+.sites {
+    text-align: center;
+}
+.sec07 {
+    height:550px;
+    background-image: url(../img/plano_fundo.jpg);
+}
+.artigos {
+    text-align: center;
+    padding: 20px;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+}
+footer {
+    display:inline-flex;
+    justify-content: center;
+    background-color:#e42A03;
+    width: 100%;
+}
+footer a {
+    margin: 10px;
+    text-align: center;
+}
+footer p {
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #0d0a0b;
+}
+footer a:hover{
+    color: #0d0a0b;
+}
